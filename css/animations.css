@@ -1,0 +1,103 @@
+/*
+    Animations
+*/
+
+@keyframes fadein {
+    0% {
+        visibility: hidden;
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+        visibility: inherit;
+    }
+}
+@keyframes fadeout {
+    0% {
+        visibility: inherit;
+        opacity: 1.0;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0.0;
+    }
+}
+.amt-anim-fade-in-1 {
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.amt-anim-fade-in-2 {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.amt-anim-fade-in-3 {
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.amt-anim-fade-out-2 {
+    animation-name: fadeout;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.amt-anim-fade-out-3 {
+    animation-name: fadeout;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-bottom {
+    0% {
+        padding-top: 1000px;
+        overflow-y: hidden;
+    }
+    100% {
+        padding-top: 0px;
+    }
+}
+.amt-anim-slide-bottom-3 {
+    animation-name: slide-bottom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translate(-1000px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.amt-anim-slide-right-3 {
+    animation-name: slide-right;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes whirl {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(180deg);
+    }
+    50% {
+        transform: rotateZ(360deg);
+    }
+    75% {
+        transform: rotateZ(540deg);
+    }
+    100% {
+        transform: rotateZ(720deg);
+    }
+}
+
+.amt-anim-whirl-3 {
+    animation-name: whirl;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}

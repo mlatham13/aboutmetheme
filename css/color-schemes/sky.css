@@ -1,0 +1,21 @@
+/*
+    Sky Color Scheme
+*/
+body {
+    background-image: url("../../media/images/sky.png");
+    background-size: cover;
+}
+.menu-footer li,
+.menu-header li  {
+    background-color: #94c8f0;
+    color: white;
+}
+.menu-footer a:visited,
+.menu-footer a:link,
+.menu-header a:visited,
+.menu-header a:link {
+    color: darkblue;
+}
+.hline {
+    background-color: lightsteelblue;
+}

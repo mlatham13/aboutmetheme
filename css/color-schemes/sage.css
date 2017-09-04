@@ -1,0 +1,21 @@
+/*
+    Sage Color Scheme
+*/
+body {
+    background-image: url("../../media/images/sage.png");
+    background-size: cover;
+}
+.menu-footer li,
+.menu-header li  {
+    background-color: #339966;
+    color: white;
+}
+.menu-footer a:visited,
+.menu-footer a:link,
+.menu-header a:visited,
+.menu-header a:link {
+    color: white;
+}
+.hline {
+    background-color: #9fa8a3;
+}

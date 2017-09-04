@@ -1,0 +1,25 @@
+/*
+    Flamingo Color Scheme
+*/
+body {
+    background-image: url("../../media/images/flamingo.png");
+    background-size: cover;
+}
+.hline {
+    background-color: #334431;
+}
+.menu-footer li,
+.menu-header li  {
+    border-color: hotpink;
+    background-color: #f2cbbc;
+    color: white;
+}
+.menu-footer a:visited,
+.menu-footer a:link,
+.menu-header a:visited,
+.menu-header a:link {
+    color: black;
+}
+.theme-select-label {
+    color: #f2cbbc;
+}

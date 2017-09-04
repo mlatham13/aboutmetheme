@@ -1,0 +1,21 @@
+/*
+    Desert Color Scheme
+*/
+body {
+    background-image: url("../../media/images/desert.png");
+    background-size: cover;
+}
+.menu-footer li,
+.menu-header li  {
+    background-color: #c7ad88;
+    color: white;
+}
+.menu-footer a:visited,
+.menu-footer a:link,
+.menu-header a:visited,
+.menu-header a:link {
+    color: black;
+}
+.hline {
+    background-color: #64706c;
+}

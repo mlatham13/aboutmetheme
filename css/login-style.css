@@ -1,0 +1,20 @@
+#login h1 a, .login h1 a {
+    background-image: url("../media/images/ml-logo-80x80.png");
+    height:80px;
+    width:80px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.login {
+    background-color: darkgreen;
+}
+
+.login form {
+    border-radius: 1em;
+}
+
+.login #backtoblog a, .login #nav a {
+    color: white;
+}
